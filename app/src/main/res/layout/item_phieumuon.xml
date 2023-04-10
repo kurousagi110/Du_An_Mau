@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#99E0C3"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtMaPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txtMaTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/txtTenTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txtMaTT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/txtTenTT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txtMaSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/txtTenSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txtNgayMuon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/txtTienThue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txtTrangThai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#000000"/>
+            <Button
+                android:id="@+id/btnTraSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trả Sách" />
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
